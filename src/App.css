@@ -128,7 +128,7 @@ h4 {
   padding: 5px;
   color: #fff;
   margin: 16px;
-  background-color: #3f0244;
+  background-color: #0d10b3;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -144,13 +144,13 @@ b {
   left: 0;
   top: 0;
   z-index: 10;
-  background-color: #fff;
+  background-color: #faf9f9;
   opacity: 0.8;
   width: 50%;
   height: 20px;
   border-radius: 50px;
   padding: 5px;
-  transition: 0.8s;
+  
 }
 
 .shiftright {

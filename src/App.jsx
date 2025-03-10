@@ -57,7 +57,7 @@ export default function Login() {
       </p>
 
       <h4>Inbox: {state.email}</h4>
-      <div
+      <div className="toggle"
         onClick={() =>
           dispatch({
             type: "toggle",
@@ -65,8 +65,7 @@ export default function Login() {
             move: "shiftright",
             submitted: true,
           })
-        }
-        className="toggle"
+        } 
       >
         <b>focused</b>
         <b>other</b>
@@ -296,6 +295,7 @@ function myreducer(state, actionobject) {
         useremail: actionobject.emailtext,
       };
     }
+
     case "reset": {
       if (actionobject.text.includes("undefined")) {
         return {
