@@ -276,7 +276,7 @@ function myreducer(state, actionobject) {
         };
       } else {
         return {
-          error: "Please enter correct email address",
+          error: "Please enter a valid email address",
           email: "",
         };
       }
