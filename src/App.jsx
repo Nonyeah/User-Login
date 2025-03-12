@@ -57,7 +57,8 @@ export default function Login() {
       </p>
 
       <h4>Inbox: {state.email}</h4>
-      <div className="toggle"
+      <div
+        className="toggle"
         onClick={() =>
           dispatch({
             type: "toggle",
@@ -65,7 +66,7 @@ export default function Login() {
             move: "shiftright",
             submitted: true,
           })
-        } 
+        }
       >
         <b>focused</b>
         <b>other</b>
@@ -75,28 +76,28 @@ export default function Login() {
       <div className="inbox">
         <ul>
           <li>
-            <span>WB</span> World of Books - Javascript the definitive guide,
-            pre-order volume edition 8
+            <span>WB</span><p>World of Books - Javascript the definitive guide,
+            pre-order volume edition 8</p>
           </li>
           <li>
-            <span>EE</span> EE Mobile - Your mobile phone statement for this
-            month has landed!
+            <span>EE</span> <p>EE Mobile - Your mobile phone statement for this
+            month has landed!</p>
           </li>
           <li>
-            <span>S</span> Sainsburys Supermarket - Nectar points and more with
-            Sainsburys and our partners{" "}
+            <span>SA</span><p> Sainsburys Supermarket - Nectar points and more with
+            Sainsburys and our partners</p>
           </li>
           <li>
-            <span>T</span>Tesco clubcard - Get the latest deals and discounts
-            using your clubcard
+            <span>TE</span><p>Tesco clubcard - Get the latest deals and discounts
+            using your clubcard</p>
           </li>
           <li>
-            <span>MA</span> Matalan Online - 15% off ladies wear this weekend
-            only. Use Code "WEEKEND"{" "}
+            <span>MA</span> <p>Matalan Online - 15% off ladies wear this weekend
+            only. Use Code "WEEKEND"</p>
           </li>
           <li>
-            <span>A</span>Auto Trader - enter our competition today to win a new
-            Audi Quattro{" "}
+            <span>AT</span><p>Auto Trader - enter our competition today to win a
+            new Audi Quattro</p>
           </li>
         </ul>
 
@@ -171,24 +172,23 @@ export default function Login() {
             <div className="inbox">
               <ul>
                 <li>
-                  <span>BC</span> Brent Council - Have your say
+                  <span>BC</span> <p>Brent Council - Have your say</p>
                 </li>
                 <li>
-                  <span>VM</span> Virgin Media - New Broadband deals
+                  <span>VM</span> <p>Virgin Media - New Broadband deals</p>
                 </li>
                 <li>
-                  <span>MA</span> Microsoft Advertising - Claim your £200 credit
-                  today
+                  <span>MA</span> <p>Microsoft Advertising - Claim your £200 credit today</p>
+                
                 </li>
                 <li>
-                  <span>Temu</span>Act Fast, flash sale ending soon!
+                  <span>TU</span><p>Act Fast, flash sale ending soon!</p>
                 </li>
                 <li>
-                  <span>MC</span> Mailchimp Support - Daily list status updates
-                  from subscribers
+                  <span>MC</span><p>Mailchimp Support - Daily list status updates from subscribers</p>
                 </li>
                 <li>
-                  <span>CS</span> Code Sandbox - Set up your project in minutes
+                  <span>CS</span> <p>Code Sandbox - Set up your project in minutes</p>
                 </li>
               </ul>
 

@@ -101,18 +101,24 @@ a {
   font: 14px georgia;
   display: flex;
   align-items: center;
+ 
 }
 
 .inbox li span {
   padding: 5px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 35px;
   background-color: #79b190;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 10px;
+}
+
+.inbox li p{
+  width: 80%;
+
 }
 
 h4 {
@@ -142,7 +148,7 @@ h4 {
   background-color: #0d10b3;
   cursor: pointer;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 b {
@@ -177,7 +183,8 @@ b {
 }
 
 .logout > a {
-  font: 14px georgia;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
   text-transform: capitalize;
   color: #000;
 }
@@ -209,7 +216,7 @@ b {
   margin: 0 16px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .reset{
     width: 100%;
     margin: 30px 0;
@@ -232,5 +239,9 @@ font: 12px arial;
   width: auto;
   font: 12px arial;
 
+}
+
+.toggle{
+  width: 35%;
 }
 }
